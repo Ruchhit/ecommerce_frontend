@@ -1,10 +1,9 @@
- import React from 'react'
- import ProductList from './features/ProductList/productList'
+ import React from 'react' 
+import Home from './pages/Home'
  const App = () => {
    return (
      <div>
-      header
-      <ProductList/>
+      <Home/>
      </div>
    )
  }
