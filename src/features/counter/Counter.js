@@ -14,7 +14,7 @@ export default function Counter() {
   return (
     <div>
       <div>
-      
+      counter
        
       </div>
     </div>
