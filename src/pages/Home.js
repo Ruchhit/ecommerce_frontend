@@ -1,5 +1,5 @@
  import React from 'react'
-import ProductList from '../features/ProductList/productList'
+import ProductList from '../features/Product/productList'
 import Navbar from '../features/Navbar/Navbar'
  
  const Home = () => {
