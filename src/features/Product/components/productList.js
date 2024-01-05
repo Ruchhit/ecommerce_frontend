@@ -16,6 +16,7 @@ import {
   PlusIcon,
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 
 const items = [
   {
@@ -424,6 +425,7 @@ export default function ProductList() {
 
                           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             {products.map((product) => (
+                              <Link to='/productDetails'>
                               <div key={product.id} className="group relative">
                                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                   <img
@@ -452,6 +454,7 @@ export default function ProductList() {
                                   </p>
                                 </div>
                               </div>
+                              </Link>
                             ))}
                           </div>
                         </div>
