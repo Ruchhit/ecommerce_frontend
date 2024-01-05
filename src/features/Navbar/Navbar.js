@@ -70,7 +70,7 @@ function Navbar({children}) {
                         <span className="sr-only">View notifications</span>
                         <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                       </button>
-                      <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">0</span>
+                      <span class="inline-flex items-center mb-7 -ml-1 rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">0</span>
 
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
